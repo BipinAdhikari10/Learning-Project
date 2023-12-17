@@ -22,6 +22,12 @@
       label {
         font-weight: bolder;
       }
+      button {
+        font-size: 1rem;
+        background-color: antiquewhite;
+        color: aqua;
+        border-radius: 2rem;
+      }
     </style>
   </head>
   <body>
@@ -66,6 +72,7 @@
         name="phone"
         placeholder="Enter your number"
         type="number"
+        value="20000"
       />
       <br />
       <label for="message">Message:</label>
@@ -73,6 +80,46 @@
       <br />
       <br />
       <br />
+      <form>
+        <h2>Select Gender</h2>
+
+        <input type="radio" id="male" name="options" value="male" />
+        <label for="male">Male</label><br />
+
+        <input type="radio" id="female" name="options" value="female" />
+        <label for="female">Female</label><br />
+
+        <input type="radio" id="other" name="options" value="other" />
+        <label for="other">Other</label><br />
+
+        <form>
+          <label>Select Type:</label><br />
+          <input
+            type="checkbox"
+            id="checkbox1"
+            name="checkboxes"
+            value="checkbox1"
+          />
+          <label for="checkbox1">Checkbox 1</label><br />
+
+          <input
+            type="checkbox"
+            id="checkbox2"
+            name="checkboxes"
+            value="checkbox2"
+          />
+          <label for="checkbox2">Checkbox 2</label><br />
+
+          <input
+            type="checkbox"
+            id="checkbox3"
+            name="checkboxes"
+            value="checkbox3"
+          />
+          <label for="checkbox3">Checkbox 3</label><br />
+        </form>
+      </form>
+
       <button type="submit">Add Data</button>
     </form>
   </body>
