@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="submit-form" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <br />
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" />
+      <br />
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" />
+      <br />
+      <label for="country">Country:</label>
+      <input type="text" name="country" />
+      <br />
+      <input type="checkbox" id="choose1" name="choose1" value="choose1" />
+      <label for="choose1">Choose1</label>
+      <br />
+      <input type="checkbox" id="choose2" name="choose2" value="choose2" />
+      <label for="choose2">Choose2</label>
+      <br />
+      <input type="radio" id="male" name="choose" value="male" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="female" name="choose" value="female" />
+      <label for="female">Female</label>
+      <br />
+      <label for="carmodels">Carmodels</label>
+      <select name="carmodels" id="carmodels">
+        <option value="ford">Ford</option>
+        <option value="polo">Polo</option>
+        <option value="tesla">Tesla</option>
+        <option value="creta">Creta</option>
+      </select>
+    </form>
+
+    <br />
+    <button type="submit">Submit</button>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="submit" method="post">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        placeholder="Enter Your name"
+      />
+      <br />
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" />
+      <br />
+      <label for="mobile number">Mobile Number:</label>
+      <input type="number" id="mobile number" name="mobile number" />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <input type="checkbox" id="option1" name="option1" />
+      <label for="option1">Option1</label>
+      <br />
+      <input type="checkbox" id="option2" name="option2" />
+      <label for="option2">Option2</label>
+      <br />
+      <input type="radio" id="male" name="Choose gender" value="male" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="female" name="Choose gender" value="female" />
+      <label for="female">Female</label>
+      <br />
+      <label for="carmodels">SelectCar</label>
+      <select name="carmodels" id="carmodels">
+        <option value="carmodels">Ford</option>
+        <option value="carmodels">Creta</option>
+        <option value="carmodels">Tesla</option>
+        <option value="carmodels">Hyundai</option>
+      </select>
+    </form>
+    <br />
+    <button type="button">Submit</button>
+  </body>
+</html>

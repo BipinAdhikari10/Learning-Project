@@ -1,0 +1,9 @@
+button {
+  border-radius: 100px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+body {
+  background-color: brown;
+}
