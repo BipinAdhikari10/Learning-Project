@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      nav {
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+      }
+      .nav__links {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav__link a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      .btn {
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        border-radius: 100000px;
+        font-weight: bold;
+      }
+      .btn__login {
+        background-color: red;
+      }
+      .btn__signup {
+        background-color: green;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2 class="logo">Logo</h2>
+      <ul class="nav__links">
+        <li class="nav__link"><a href="#">Home</a></li>
+        <li class="nav__link"><a href="#">About</a></li>
+        <li class="nav__link"><a href="#">Services</a></li>
+        <button class="btn btn__login">Login</button>
+        <button class="btn btn__signup">SignUp</button>
+      </ul>
+    </nav>
+  </body>
+</html>
