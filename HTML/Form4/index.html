@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <label for="name"
+        >Name:
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+      </label>
+      <br />
+      <label for="email"
+        >Email:
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter Your email id"
+          required
+        />
+      </label>
+      <br />
+      <label for="address"
+        >Address:
+        <input type="text" id="address" name="address" required />
+      </label>
+      <br />
+      <label for="mobile number"
+        >Mobile Number:
+        <input type="number" id="mobile number" name="mobile number" />
+      </label>
+      <br />
+      <input type="checkbox" id="option1" name="option1" value="option1" />
+      <label for="option1">Option1</label>
+
+      <br />
+      <input type="checkbox" id="option2" name="option2" value="option2" />
+      <label for="option2">Option2</label>
+      <br />
+      <input type="radio" id="gender" name="choose" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="gender" name="choose" value="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="gender" name="choose" value="other" />
+      <label for="other">other</label>
+      <br />
+      <br />
+      <label for="selectcar"
+        >Carmodels
+        <select name="carmodesls" id="carmodesls">
+          <option value="ford">Ford</option>
+          <option value="creta">Creta</option>
+          <option value="tesla">Tesla</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <button class="btn_btn-submit">Submit</button>
+    </form>
+  </body>
+</html>
