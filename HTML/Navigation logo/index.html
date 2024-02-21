@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      nav {
+        background-color: brown;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+      }
+      .nav__links {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 40px;
+        align-items: center;
+      }
+      .btn {
+        border-radius: 100px;
+        padding: 5px;
+        background-color: green;
+        border: none;
+      }
+      .btn__login {
+        background-color: blue;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2 class="logo">Logo</h2>
+      <ul class="nav__links">
+        <li class="nav__link">Home</li>
+        <li class="nav__link">About</li>
+        <li class="nav__link">Services</li>
+
+        <button class="btn btn__signup">Sign Up</button>
+        <button class="btn btn__login">Login</button>
+      </ul>
+    </nav>
+  </body>
+</html>

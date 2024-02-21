@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(114, 92, 92);
+}
+.logo {
+  width: 30px;
+  margin-left: 20px;
+  color: blueviolet;
+  border-radius: 50%;
+}
+.footer__links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-family: sans-serif;
+}
+.copy__right {
+  display: flex;
+  margin-top: 50px;
+}
