@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Practice</title>
+  </head>
+  <body>
+    <form action="post method">
+      <label for="name">Name: </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter Your Name"
+        required
+      />
+      <br />
+
+      <label for="address">Address:</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        placeholder="Enter your address"
+        required
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" />
+      <br />
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" />
+
+      <br />
+      <br />
+      <label for="message ">Message</label>
+      <textarea name="text" id="Message" cols="20" rows="10"></textarea>
+
+      <h2>Select Gender</h2>
+      <input type="radio" id="male" name="options" value="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="options" value="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="others" name="others" value="others" />
+      <label for="others">Others</label>
+      <br />
+      <label for="select type"></label>
+      <input
+        type="checkbox"
+        id="checkbox1"
+        name="checkboxes"
+        value="checkbox1"
+      />
+      <label for="checkbox1">Checkbox1</label>
+      <br />
+      <br />
+    </form>
+    <br />
+    <button class="btn__btn__submit">Submit</button>
+  </body>
+</html>
