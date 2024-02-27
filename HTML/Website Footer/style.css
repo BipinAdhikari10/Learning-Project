@@ -4,18 +4,30 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-footer {
-  background-color: antiquewhite;
-}
 .footer__main {
+  background-color: antiquewhite;
   display: flex;
   justify-content: space-around;
+  padding-top: 20px;
+}
+/* .footer__header__links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */
+.footer__link {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 ul {
   list-style: none;
 }
-.heart__icons {
-  width: 25px;
+
+.zola {
+  margin-bottom: 20px;
+}
+.heart__icon {
+  width: 35px;
 }
 .arrow__image {
   width: 15px;
@@ -34,14 +46,32 @@ ul {
   background-color: #000;
   color: #fff;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 .btn__apple {
   border-radius: 10px;
   padding: 5px;
-  background-color: #fff;
-  color: #000;
+  display: flex;
+  gap: 10px;
 }
 .apple__logo {
   width: 20px;
-  margin-right: 200px;
+}
+.facebook__icons {
+  width: 20px;
+}
+.twitter__icons {
+  width: 20px;
+}
+.instagram__icons {
+  width: 20px;
+}
+.tiktok__icons {
+  width: 20px;
+}
+.app_store_text {
+}
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
