@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  margin-left: 200px;
+  width: 1000px;
+  margin-top: 50px;
+}
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header__text {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.header__links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  color: #355ead;
+}
+.header__link {
+  cursor: pointer;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.btn__sign {
+  size: 18px;
+  line-height: 24px;
+}
+.btn {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+.btn__register {
+  background-color: #0063ff;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  margin-left: 10px;
+}
+
+.students {
+  background-color: #ffcf3a;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.students a {
+  color: blue;
+}
+
+/* Hero Section */
+.hero__section {
+  margin-top: 50px;
+}
+.hero__text {
+  text-transform: uppercase;
+  color: #fc9049;
+  margin-left: 190px;
+}
+.hero__texts {
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 190px;
+}
+.hero__paragraph {
+  margin-top: 20px;
+  margin-left: 190px;
+}
+.btn__started {
+  margin-left: 190px;
+  margin-top: 30px;
+  background-color: yellow;
+  color: black;
+  border-radius: 100px;
+  padding: 10px;
+}
+.play__btn {
+  width: 30px;
+}
+.hero__next {
+  display: flex;
+  margin-left: 320px;
+}
+.hero__summary {
+  color: #fc9049;
+  margin-left: 190px;
+  text-transform: uppercase;
+}
+.hero__heading {
+  margin-top: 20px;
+  margin-left: 190px;
+  text-transform: capitalize;
+}
+.hero__para {
+  margin-top: 20px;
+  margin-left: 190px;
+  font-size: 18px;
+}
+.hero__image {
+  width: 100px;
+  display: flex;
+  margin-left: 100px;
+  border-radius: 50px;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 50px;
+}
