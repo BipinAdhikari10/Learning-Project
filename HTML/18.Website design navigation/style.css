@@ -72,60 +72,83 @@ a:hover {
 
 /* Hero Section */
 .hero__section {
+  /* border: 2px solid green; */
+  margin-left: 200px;
+  width: 1000px;
   margin-top: 50px;
-}
-.hero__text {
-  text-transform: uppercase;
-  color: #fc9049;
-  margin-left: 190px;
-}
-.hero__texts {
-  margin-top: 10px;
-  text-transform: capitalize;
-  font-size: 25px;
-  font-weight: 700;
-  margin-left: 190px;
-}
-.hero__paragraph {
-  margin-top: 20px;
-  margin-left: 190px;
-}
-.btn__started {
-  margin-left: 190px;
-  margin-top: 30px;
-  background-color: yellow;
-  color: black;
-  border-radius: 100px;
-  padding: 10px;
-}
-.play__btn {
-  width: 30px;
-}
-.hero__next {
   display: flex;
-  margin-left: 320px;
 }
 .hero__summary {
   color: #fc9049;
-  margin-left: 190px;
   text-transform: uppercase;
 }
 .hero__heading {
-  margin-top: 20px;
-  margin-left: 190px;
+  margin-top: 5px;
+  font-size: 52px;
   text-transform: capitalize;
 }
 .hero__para {
-  margin-top: 20px;
-  margin-left: 190px;
-  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  gap: 15px;
+}
+
+.btn__started {
+  background-color: #ffcf3a;
+  color: black;
+  border-radius: 100px;
+  padding: 10px;
+  font-weight: 600;
+  /* font-family: inherit; */
+  /* margin-right: 20px; */
+}
+.btn-play {
+  color: #1c75bc;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 50%;
+}
+.hero__next {
+  font-weight: 600;
 }
 .hero__image {
-  width: 100px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.hero__image img {
+  width: 200px;
   display: flex;
   margin-left: 100px;
   border-radius: 50px;
-  margin-top: 20px;
   justify-content: space-between;
   gap: 50px;
+}
+
+/* Data section */
+
+.data-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0063ff;
+  color: white;
+  height: 100px;
+}
+
+.data-numbers {
+  font-weight: 700;
+  font-size: 18px;
+}
+.data-activity {
+  font-size: 18px;
 }
