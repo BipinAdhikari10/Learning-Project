@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body {
+  background-color: #fdfeff;
+}
 header {
   margin-left: 200px;
   width: 1000px;
@@ -124,6 +127,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .data__section {
+  margin-left: 60px;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -202,4 +206,132 @@ a:hover {
   margin-top: 10px;
   font-weight: 500;
   font-size: 18px;
+}
+.image__container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.beautiful__image {
+  width: 400px;
+}
+.image__para {
+  color: #fc9049;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+.image__heading {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.image__paragraph {
+  margin-top: 15px;
+}
+.btn__btn__short {
+  border-radius: 100px;
+  background-color: #ffcf3a;
+  color: #000;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 30px;
+  border: none;
+}
+.customize__schedule {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.schedule {
+  color: #fc9049;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.schedule__heading {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.text__schedule {
+  margin-top: 18px;
+  font-size: 15px;
+}
+.btn__schedule {
+  border-radius: 100px;
+  background-color: #ffcf3a;
+  color: #000;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 30px;
+  border: none;
+}
+.schedule__image {
+  width: 400px;
+  height: 300px;
+}
+.tutor__subject__container {
+  text-align: center;
+  margin-top: 40px;
+}
+.tutor__subject {
+  text-transform: uppercase;
+  color: #fc9049;
+  font-weight: 500;
+  font-size: 18px;
+}
+.tutor__heading {
+  margin-top: 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 22px;
+}
+.btn__engineering {
+  display: flex;
+  background-color: #ad4996;
+  border-radius: 20px;
+  padding: 12px;
+  /* width: 120px; */
+  text-align: center;
+}
+.engineer {
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+.subject-container {
+  /* border: 2px solid green; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.subject-row {
+  /* border: 2px solid red; */
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.subject {
+  display: flex;
+  gap: 5px;
+  background-color: #fbf8f8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px 12px;
+  border-radius: 10px;
+  align-items: center;
+}
+.subject-icon {
+  /* height: 20px; */
+  padding: 10px;
+  border-radius: 50%;
+}
+.e-icon {
+  background: green;
+}
+.programming-icon {
+  background: red;
 }
