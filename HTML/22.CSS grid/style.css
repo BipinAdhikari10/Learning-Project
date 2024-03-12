@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.grid__container {
+  background-color: #cc3399;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 200px 52% 200px;
+}
+.grid__item {
+  background-color: wheat;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
