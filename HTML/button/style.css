@@ -1,0 +1,16 @@
+.login {
+  background-color: blue;
+  color: white;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px 12px;
+  text-align: center;
+  width: 100px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 200px;
+}

@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #fdfeff;
+}
+header {
+  margin-left: 200px;
+  width: 1000px;
+  margin-top: 50px;
+  border: 2px solid red;
+}
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header__text {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.header__links {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  color: #355ead;
+}
+.header__link {
+  list-style: none;
+  cursor: pointer;
+}
+.sign__in {
+  size: 18px;
+  line-height: 24px;
+}
+.btn {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+.btn__btn__register {
+  background-color: #0063ff;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  margin-left: 10px;
+}
