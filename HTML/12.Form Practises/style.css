@@ -9,19 +9,26 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: sans-serif;
+  background-color: blueviolet;
 }
 form {
   border: 2px solid black;
   padding: 2rem;
-  background-color: blueviolet;
+  background-color: goldenrod;
 }
 label {
   font-weight: bolder;
 }
 button {
-  font-size: 1rem;
+  font-size: 18px;
   background-color: brown;
-  color: aqua;
-  border-radius: 2rem;
-  padding: 10px;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 12px;
+  font-weight: 500;
+  font-family: sans-serif;
+  border: none;
+  width: 100px;
+  margin-top: 500px;
+  margin-right: 200px;
 }
