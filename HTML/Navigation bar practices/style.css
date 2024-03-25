@@ -23,6 +23,7 @@ a {
   text-decoration: none;
   color: #fff;
 }
-a:hover {
+a:hover,
+.hello {
   background-color: #156ee2;
 }
