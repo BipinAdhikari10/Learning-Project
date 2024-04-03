@@ -27,3 +27,22 @@ console.log(sumA);
 
 const sub = (a, b) => a - b;
 console.log(sub(5, 4));
+
+const checkEven = (num) => {
+  if (num % 2 == 0) {
+    return "even";
+  } else {
+    return "odd";
+  }
+};
+let result = checkEven(4);
+console.log(result);
+
+const checkOdd = (num1) => {
+  if (num1 % 2 !== 0) {
+    return "odd";
+  } else {
+    return "Even";
+  }
+};
+console.log(checkOdd(1));
