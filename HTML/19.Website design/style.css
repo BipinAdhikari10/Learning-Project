@@ -10,6 +10,7 @@ body {
 header {
   margin-left: 200px;
   width: 1000px;
+  /* border: 2px solid red; */
   margin-top: 50px;
 }
 .header__main {
