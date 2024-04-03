@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 1000px;
+}
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header__text {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.header__links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: #355ccd;
+  font-weight: 500;
+}
+.header__link a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+.header__link a:hover {
+  text-decoration: underline;
+  color: #355ccd;
+}
+.sign {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 100px;
+
+  font-weight: 500;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn__register {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 12px;
+  border: none;
+  margin-left: 10px;
+}
+.students {
+  text-align: center;
+  background-color: #ffcf3a;
+  padding: 10px;
+  margin-top: 20px;
+}
+.students a {
+  color: blue;
+}
