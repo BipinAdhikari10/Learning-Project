@@ -34,3 +34,21 @@ function EvenNum(arr) {
 }
 let result = EvenNum([1, 2, 3, 4, 5, 6]);
 console.log(result);
+
+// JavaScript program to sum of array function return
+
+function sumNum(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum;
+}
+
+let array = [3, 1, 2];
+const results = sumNum(array);
+console.log(results);
+
+// declare array fruits
+
+let fruits = ["apple", "banana"];
