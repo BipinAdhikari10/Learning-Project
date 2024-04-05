@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #fdfeff;
+}
+header {
+  margin-left: 200px;
+  width: 1000px;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+}
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__text {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.header__links {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  color: #355ead;
+}
+.header__link {
+  list-style: none;
+  cursor: pointer;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.btn__sign {
+  size: 18px;
+  line-height: 24px;
+}
+.btn {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+.btn__register {
+  background-color: #0063ff;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  margin-left: 10px;
+}
+.students {
+  background-color: #ffcf3a;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.students a {
+  color: blue;
+  text-decoration: underline;
+}
+.hero__summary {
+  text-transform: uppercase;
+  margin-left: 200px;
+  font-size: 20px;
+  color: #fc9049;
+  margin-top: 20px;
+}
+.hero__heading {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.hero__para {
+  font-size: 18px;
+  margin-left: 200px;
+  margin-top: 10px;
+  font-weight: 500;
+}
