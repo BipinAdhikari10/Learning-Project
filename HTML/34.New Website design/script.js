@@ -98,7 +98,17 @@
 // const addString = animals.join("+");
 // console.log(addString);
 
-let arr = ["apple", "ball", "cat"];
-for (let i = arr.length - 1; i >= 0; i--) {
-  console.log(arr[i]);
+// let arr = ["apple", "ball", "cat"];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   console.log(arr[i]);
+// }
+function findMax(arr) {
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (max < arr[i]) {
+      max = arr[i];
+    }
+  }
+  console.log(max);
 }
+findMax([2, 3, 4, 1, 0, 10, 12, 10]);
