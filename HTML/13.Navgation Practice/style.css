@@ -3,13 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: brown;
+}
 ul {
   list-style: none;
+  width: 38%;
   height: 36px;
   line-height: 36px;
   font-family: sans-serif;
   font-size: 13px;
   background-color: #000;
+  margin-left: 100px;
+  padding: 10px 12px;
 }
 li {
   float: left;
