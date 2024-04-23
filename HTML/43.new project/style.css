@@ -5,11 +5,12 @@
 }
 body {
   font-family: sans-serif;
-  background-color: grey;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
 }
 .btn {
   padding: 10px 12px;
@@ -51,4 +52,32 @@ body {
   border: 1px solid #000;
   background-color: transparent;
   color: #000;
+}
+
+.btn__watch {
+  background-color: red;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  margin-left: 50px;
+  font-weight: 600;
+  margin-top: 50px;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: sans-serif;
+  width: 150px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 100px;
+}
+
+.btn__button {
+  background-color: #166fb5;
+  width: 200px;
+  font-size: 18px;
+  color: #fff;
+  font-family: sans-serif;
+  border-radius: 5px;
+  align-items: center;
 }
