@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  margin-left: 200px;
+  width: 1000px;
+  margin-top: 5rem;
+  font-family: sans-serif;
+}
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header__text {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.header__links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-weight: 500;
+}
+.header__link a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header__link a:hover {
+  color: #355ead;
+  text-decoration: underline;
+}
+.sign {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+.btn__register {
+  background-color: #0063ef;
+  color: #fff;
+  margin-left: 20px;
+  padding: 10px 12px;
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+}
+.students {
+  background-color: #ffcf3a;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.students a {
+  color: #143997;
+  text-decoration: none;
+}
