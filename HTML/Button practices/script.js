@@ -45,9 +45,21 @@ let myIntro = introArray.join(" ");
 console.log(`The intro string is ${myIntro}`);
 
 // Convert array to string:
+let fruits = ["apple", "banana", "cherry", "orange", "grapes"];
+let arrayFruits = fruits.join("+");
+
+console.log(arrayFruits);
+// Convert string to array:
+let sentences = "I live in Kathmandu ";
+let arrays = sentences.split(" ");
+console.log(arrays);
+
+//Convert array to string:
+let colors = ["red", "green", "purple", "yellow"];
+let color = colors.join("$ ");
+console.log(color);
 
 // Convert string to array:
-
-//Convert string to array:
-
-// Convert array to string:
+let animalIntroduction = "King of jungle is lion";
+let animal = animalIntroduction.split(" ");
+console.log(animal);
