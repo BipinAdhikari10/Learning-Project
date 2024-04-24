@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+  font-family: sans-serif;
+}
+.footer__main {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.footer__links {
+  list-style: none;
+}
+.footer__link {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.heart__icon {
+  width: 35px;
+}
+.footer__text {
+  margin-top: 5px;
+}
+.login__links {
+  list-style: none;
+  margin-top: 5px;
+}
+.login__links:hover {
+  text-decoration: underline;
+}
+.arrow__image {
+  width: 15px;
+}

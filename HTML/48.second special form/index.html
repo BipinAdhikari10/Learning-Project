@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form__wrapper">
+      <h1 class="form__heading">Personal Form</h1>
+      <form action="submit.php" class="persol__form">
+        <div class="form__information">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Your full name"
+            required
+          />
+        </div>
+        <div class="form__information">
+          <label for="address">Address:</label>
+          <input
+            type="address"
+            id="address"
+            name="address"
+            placeholder="Enter Address"
+            required
+          />
+        </div>
+        <div class="form__information">
+          <label for="passaword">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="****"
+          />
+        </div>
+        <div class="form__information">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="*****@gmail.com"
+            required
+          />
+        </div>
+        <div class="form__information">
+          <label for="dob">DOB:</label>
+          <input type="date" id="date" required />
+        </div>
+      </form>
+      <div class="button__container">
+        <button class="btn btn__submit">Submit</button>
+      </div>
+    </div>
+
+    <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+  </body>
+</html>

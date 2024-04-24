@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <div class="form-wrapper">
+      <h1 class="form-heading">Personal Form</h1>
+      <form action="nofile.php" class="personal-form">
+        <div class="form-information">
+          <label for="name" class="personal-form-label name-label">Name:</label>
+          <input id="name" type="text" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-information">
+          <label for="address" class="personal-form-label">Address:</label>
+          <input type="text" id="address" placeholder="Enter Address" />
+        </div>
+
+        <div class="form-information">
+          <label for="email" class="personal-form-label">Email:</label>
+          <input id="email" type="email" placeholder="Enter email" />
+        </div>
+        <div class="form-information">
+          <label for="password" class="personal-form-label">Password:</label>
+          <input id="password" type="password" placeholder="Enter Password" />
+        </div>
+
+        <div class="form-information">
+          <label for="dob" class="personal-form-label">DOB:</label>
+          <input id="dob" type="date" />
+        </div>
+
+        <div class="form__information">
+          <label for="car">Select Car</label>
+          <select name="car" id="car">
+            <option value="tesla">Tesla</option>
+            <option value="creta">Creta</option>
+          </select>
+        </div>
+
+        <div class="button-container">
+          <button type="submit">Add Data</button>
+        </div>
+      </form>
+    </div>
+    <div class="table"></div>
+  </body>
+</html>
