@@ -23,6 +23,7 @@ footer {
   font-weight: 600;
 }
 .footer-links {
+  font-size: 16px;
   list-style: none;
   margin-top: 10px;
 }
@@ -37,7 +38,7 @@ footer {
 .footer-link a:hover {
   text-decoration: underline;
   background-color: red;
-  transition: 1s;
+  transition: 1s ease-out;
 }
 .zola-text {
   margin-top: 10px;
