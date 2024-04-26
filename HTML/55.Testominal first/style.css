@@ -20,12 +20,7 @@ body {
   border-radius: 50%;
   font-size: 20px;
 }
-.chemical-icon {
-}
-.smile-icon {
-}
-.heart-icon {
-}
+
 .special-info-div {
   width: 50%;
 }
@@ -56,12 +51,12 @@ body {
   justify-content: space-around;
   align-items: center;
   border-radius: 20px;
-  padding: 30px;
+  padding: 10px;
 }
 .chair-image {
   width: 20%;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 .testomonial-para {
   color: #fff;
@@ -74,7 +69,10 @@ body {
 .testomonial-text {
   font-style: italic;
   margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 .testomonial-who {
   margin-top: 20px;
+  font-size: 12px;
 }
