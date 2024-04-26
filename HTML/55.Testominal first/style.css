@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+.special-section-heading {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.info-icon {
+  background-color: white;
+  color: green;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.chemical-icon {
+}
+.smile-icon {
+}
+.heart-icon {
+}
+.special-info-div {
+  width: 50%;
+}
+.special-section-information {
+  margin-top: 10px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px auto;
+  width: 90%;
+  margin-left: 50px;
+}
+.text-heading {
+  margin-top: 10px;
+}
+.text-para {
+  font-size: 17px;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.testominal-section {
+  margin-top: 40px;
+  background-color: #087f5b;
+  max-width: 90%;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px;
+}
+.chair-image {
+  width: 20%;
+  padding: 10px;
+  border-radius: 50px;
+}
+.testomonial-para {
+  color: #fff;
+  width: 60%;
+}
+.testomonial-heading {
+  font-weight: 700;
+  font-size: 20px;
+}
+.testomonial-text {
+  font-style: italic;
+  margin-top: 10px;
+}
+.testomonial-who {
+  margin-top: 20px;
+}
