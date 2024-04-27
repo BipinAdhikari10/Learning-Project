@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.logo-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-image {
+  width: 60px;
+}
+.logo-text {
+  font-weight: 700;
+  font-size: 25px;
+  gap: 20px;
+  margin-left: 10px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+.btn {
+  background-color: coral;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hero-section {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-heading {
+  font-weight: 700;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.hero-span {
+  flex-direction: column;
+}
+.review {
+  background-color: darkorange;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-para {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-waitlist {
+  background-color: orangered;
+  margin-top: 20px;
+  padding: 15px;
+}
